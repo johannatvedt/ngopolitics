@@ -19,5 +19,23 @@ body {
 
 header {
   background-color: #723F3F;
+  margin-bottom: 4rem;
   padding: .5rem 0 .5rem 2rem;
+
+}
+
+/*Articles styles*/
+.articles {
+  margin: 0 auto;
+  width: 720px;
+}
+
+article > img {
+  width: 100%;
+}
+
+article > h2,
+article > img,
+article > p {
+  margin-bottom: 2rem;
 }
