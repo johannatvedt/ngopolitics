@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Georgia, Times, "Times New Roman", Serif;
+  line-height: 1.5;
+}
+
+.logo {
+  color: #FFE200;
+}
+
+header {
+  background-color: #723F3F;
+  padding: .5rem 0 .5rem 2rem;
+}
