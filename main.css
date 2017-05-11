@@ -21,7 +21,33 @@ header {
   background-color: #723F3F;
   margin-bottom: 4rem;
   padding: .5rem 0 .5rem 2rem;
+}
 
+ul {
+  list-style: none;
+  color: #FFE200;
+}
+
+li {
+  margin-right: 2rem;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1134px;
+}
+
+.flex {
+  display: flex;
+}
+
+.between-and-align {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-content {
+  justify-content: space-between;
 }
 
 /*Articles styles*/
@@ -38,4 +64,26 @@ article > h2,
 article > img,
 article > p {
   margin-bottom: 2rem;
+}
+
+/*Aside*/
+
+.tweet-bar {
+  height: 240px;
+  width: 360px;
+}
+
+.tweet {
+  padding: 1rem;
+}
+
+.tweet-metadata {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.tweet-metadata > img {
+  height: 80px;
+  width: 60px;
+  margin-right: 1rem;
 }
